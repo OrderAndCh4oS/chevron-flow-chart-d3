@@ -47,12 +47,12 @@ A D3.js plugin for creating beautiful chevron flow charts in both straight (hori
     import { radialChevronChart } from 'chevron-flow-chart';
 
     const segments = [
-        {label: 'A', description: 'A description', icon: ''},
-        {label: 'B', description: 'A description', icon: ''},
-        {label: 'C', description: 'A description', icon: ''},
-        {label: 'D', description: 'A description', icon: ''},
-        {label: 'E', description: 'A description', icon: ''},
-        {label: 'F', description: 'A description', icon: ''},
+        {label: 'A'},
+        {label: 'B'},
+        {label: 'C'},
+        {label: 'D'},
+        {label: 'E'},
+        {label: 'F'},
     ];
 
     const chart = radialChevronChart({
