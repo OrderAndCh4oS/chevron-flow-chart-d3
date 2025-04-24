@@ -1,10 +1,7 @@
 {
-  "name": "chevron-flow-chart",
+  "name": "chevron-flow-chart-d3",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsc"
-  },
+  "description": "Chevron flow charts for D3",
+  "main": "src/index.js",
   "private": true
 }
