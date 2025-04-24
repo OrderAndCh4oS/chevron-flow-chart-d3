@@ -1,0 +1,10 @@
+{
+  "name": "chevron-flow-chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "private": true
+}

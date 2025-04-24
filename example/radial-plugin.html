@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Radial Chevron Flow – D3 v7 Plugin</title>
+<body style="margin:0; background:#fff;">
+<div id="chart" style="width: 100vw; height: 100vh;"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script type="module">
+    import { radialChevronChart } from '../src';
+
+    const segments = [
+        {label: 'A', description: 'A description', icon: ''},
+        {label: 'B', description: 'A description', icon: ''},
+        {label: 'C', description: 'A description', icon: ''},
+        {label: 'D', description: 'A description', icon: ''},
+        {label: 'E', description: 'A description', icon: ''},
+        {label: 'F', description: 'A description', icon: ''},
+    ];
+
+    const chart = radialChevronChart({
+        width: 816,
+        height: 816,
+        innerRadius: 250,
+        outerRadius: 400,
+        gapDegrees: 4,
+        rotateDegrees: 5,
+        labelOffsetDeg: 0,
+        strokeWidth: 8,
+        strokeColor: '#000',
+        responsive: true
+    });
+
+    // Render the chart
+    d3.select("#chart")
+        .datum(segments)
+        .call(chart);
+</script>
+</body>
